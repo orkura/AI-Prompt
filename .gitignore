@@ -1,0 +1,125 @@
+# =========================================
+# OS
+# =========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================
+# VSCode / IDE
+# =========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+
+# =========================================
+# Jupyter Notebook
+# =========================================
+.ipynb_checkpoints/
+
+# =========================================
+# Logs
+# =========================================
+*.log
+logs/
+
+# =========================================
+# Environment Variables / Secrets
+# =========================================
+.env
+.env.*
+*.key
+*.pem
+secrets/
+config.local.yaml
+config.private.yaml
+
+# =========================================
+# AI / LLM Cache
+# =========================================
+.cache/
+cache/
+tmp/
+temp/
+
+# HuggingFace
+.huggingface/
+hf_cache/
+
+# OpenAI / Embedding Cache
+embeddings/
+vector_store/
+chroma/
+faiss/
+qdrant_data/
+
+# =========================================
+# Generated Outputs
+# =========================================
+outputs/
+generated/
+exports/
+results/
+
+# =========================================
+# Node.js (if future web UI exists)
+# =========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================================
+# Testing
+# =========================================
+.pytest_cache/
+coverage/
+htmlcov/
+
+# =========================================
+# Prompt Experiment Files
+# =========================================
+drafts/
+sandbox/
+experiments/
+
+# =========================================
+# Large Files
+# =========================================
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# =========================================
+# Database
+# =========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================================
+# Mac/Linux Temporary
+# =========================================
+*~
